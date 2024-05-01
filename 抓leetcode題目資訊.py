@@ -11,7 +11,7 @@ options.add_argument('user-data-dir=C:/Users/user no1/AppData/Local/Google/Chrom
 #options.add_argument("--user-data-dir=C:/Users/user no1/AppData/Local/Google/Chrome/User Data")
 #options.add_argument("--profile-directory=1"); 
 driver=webdriver.Chrome(options=options)
-url='https://leetcode.com/problems/remove-element/description/' #更改網址就好
+url='https://leetcode.com/problems/minimum-depth-of-binary-tree/' #更改網址就好
 driver.get(url)
 
 
